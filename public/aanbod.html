@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Huureenhuis</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+      <div class="container--header">
+        <a href="index.html"
+          ><img
+            src="/images/logo.png
+          "
+            class="logo-img"
+        /></a>
+
+        <div class="menu-ul-list">
+          <ul>
+            <a href="/index.html" class="menu"><li>Home</li></a>
+            <a href="/aanbod.html" class="menu"><li>Bekijk aanbod</li></a>
+            <a href="#" class="menu"><li>Contact ons</li></a>
+          </ul>
+        </div>
+        <div class="login">
+          <button id="lgn-btn" class="login-btn">
+            <i class="fa-solid fa-user"></i> Log in
+          </button>
+        </div>
+      </div>
+    </header>
+    <section class="search-house" id="search-house">
+        <!-- <h1 class="heading-search">
+          N° 1 in exclusieve woningen
+        </h1> -->
+        <div class="search-house-container">
+          
+          <div class="search-box">
+            <div class="search-location">
+              <label for="locatie">Locatie</label>
+              <select name="locatie" id="location">
+                <option value="Amsterdam">Amsterdam</option>
+                <option value="Den-Haag">Den Haag</option>
+                <option value="Utrecht">Utrecht</option>
+                <option value="Rotterdam">Rotterdam</option>
+              </select>
+          </div>
+          <div class="search-type">
+            <label for="type-woning">Type woning</label>
+              <select name="type-woning" id="type-woning" >
+                <div class="type-hs"></div>
+              </select>
+          </div>
+          <div class="search-price">
+            <label for="prijs">Prijs</label>
+            <select name="prijs" id="prijs">
+              <option value="0-500">0-500</option>
+              <option value="500-1000">500-1000</option>
+              <option value="1000-2000">1000-2000</option>
+              <option value="2000-99999">2000+</option>
+            </select>
+          </div>
+            <div class="submit">
+              <a href="#" id="search-submit-ctn" class="search-ctn">
+                <i class="fa-regular fa-magnifying-glass"></i> Zoek nu 
+              </a>
+            </div>
+            </form>
+          </div>
+        </div>
+      </section>
+      <script src="/js/app.js"></script>
+      <script src="/js/getType.js"></script>
+
+  </body>
+</html>
+

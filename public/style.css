@@ -1,0 +1,408 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: "Lato";
+}
+header {
+  width: 100%;
+  height: 5rem;
+  background-color: #f0a028;
+  position: fixed;
+}
+
+.container--header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  padding-right: 1.2rem;
+  font-size: 1rem;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.menu:hover {
+  color: white;
+  text-decoration: underline;
+  text-shadow: 2px;
+}
+
+.login-btn {
+  background: rgb(0, 0, 0);
+  color: white;
+  border: 4px solid black;
+  font-size: 1rem;
+  padding: 10px 15px;
+  border-radius: 200px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.login-btn:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+.hero--page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(15, 15, 15, 0.74),
+      #f0a02893
+    ),
+    url("https://www.urbanresidences.com/wp-content/uploads/2020/01/UR-R-dam-penthouse-2-2.jpg");
+}
+.heading-primary {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  text-align: center;
+  letter-spacing: 5px;
+  color: white;
+}
+
+.heading-primary h1 {
+  font-weight: 400;
+  line-height: 4rem;
+  margin: 1.5rem;
+}
+
+.bekijk--aanbod {
+  background-color: #f0a028;
+  font-size: 1.5rem;
+  padding: 8px 40px;
+  border-radius: 80px;
+  cursor: pointer;
+  text-transform: uppercase;
+  border: 3px solid black;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+  scroll-behavior: smooth;
+}
+
+.bekijk--aanbod:hover {
+  background-color: black;
+  color: white;
+}
+
+.logo-img {
+  height: 5rem;
+  padding: 0.5rem;
+}
+
+.info {
+  background-color: #f0a028;
+  padding: 5rem;
+  text-align: center;
+}
+.container-info {
+  display: flex;
+  justify-content: space-around;
+}
+
+.info-huisimg {
+  height: 25rem;
+  border-radius: 40px;
+}
+
+.heading-info {
+  font-size: 2.1rem;
+  letter-spacing: 5px;
+  font-weight: 800;
+}
+
+.text-info {
+  padding: 3rem;
+  font-size: 1.4rem;
+  align-content: center;
+}
+
+.search-house {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(15, 15, 15, 0.74),
+      #f0a02893
+    ),
+    url("/images/search-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 5rem;
+  height: 100vh;
+}
+.heading-search {
+  font-size: 4rem;
+  text-align: center;
+  color: white;
+  font-weight: 200;
+  margin-bottom: 2rem;
+}
+.search-house-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.search-box {
+  height: 10rem;
+  width: 80rem;
+  background-color: #f0a028;
+  padding: 2rem;
+  border-radius: 30px;
+  border: 3px solid black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+label {
+  font-size: 1.5rem;
+  padding: 1.2rem;
+  text-transform: uppercase;
+}
+
+select {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-radius: 15px;
+  border: 2px solid rgb(0, 0, 0);
+  padding: 1rem;
+  font-size: 1.1rem;
+}
+
+.search-ctn {
+  padding: 1rem;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 15px;
+  font-size: 1rem;
+  background-color: #000000;
+  color: #f0a028;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.newsletter {
+  background-color: #f0a028;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.newsletter-container {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  padding: 2rem;
+}
+
+.newsletter-box {
+  background-color: white;
+  width: 80rem;
+  height: 15rem;
+  border-radius: 30px;
+}
+.newsletter-image {
+  width: 25%;
+}
+.newsletter-img {
+  height: 12rem;
+}
+.input-field {
+  width: 75%;
+}
+.heading-newsletter {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.heading-secondary-newsletter {
+  color: #3d3d3d;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 1rem;
+}
+
+.input-email {
+  text-align: center;
+  padding: 1.5rem;
+}
+
+input[type="email"] {
+  padding: 1rem;
+  font-size: 1rem;
+  border: 3px solid #f0a028;
+  width: 50%;
+  color: #000000;
+  border-radius: 20px;
+}
+
+.newsletter-ctn {
+  padding: 1rem;
+  font-size: 1rem;
+  background-color: #f0a028;
+  cursor: pointer;
+  margin-left: 1rem;
+  text-transform: uppercase;
+  border: 3px solid #000000;
+  border-radius: 20px;
+}
+
+.newsletter-ctn:hover {
+  background-color: #000000;
+  color: white;
+  border: 3px solid #f0a028;
+}
+
+footer {
+  background-color: #000000;
+  color: white;
+  padding: 4rem;
+}
+.footer-heading {
+  font-size: 2rem;
+  color: #f0a028;
+  margin-bottom: 1rem;
+}
+.container-footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+  text-align: center;
+}
+
+.footer-ul {
+  display: block;
+  text-align: center;
+}
+.footer-menu {
+  font-size: 1rem;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 0.5rem;
+}
+
+.footer-menu a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-copyright {
+  background-color: white;
+  text-align: center;
+  font-weight: 800;
+}
+
+.house-col {
+  color: #000000;
+  height: 100vh;
+  padding: 3rem;
+  background-color: bisque;
+}
+
+.container-houses {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  position: relative;
+}
+
+.row-1 {
+  position: relative;
+  height: 30rem;
+  width: 25rem;
+  background-color: #f0a028;
+  border: 4px solid #000000;
+  /* border-radius: 3rem; */
+}
+
+.header-aanbod {
+  position: relative;
+}
+
+.house {
+  height: 19rem;
+  width: 24.55rem;
+}
+
+.row-description {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 1.7rem;
+  font-size: 1.3rem;
+  background-color: #f0a028;
+}
+
+.straatnaam {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 800;
+  padding: 1rem;
+  background-color: #f0a028;
+  color: rgb(0, 0, 0);
+  margin: 0;
+}
+
+.rent--house {
+  font-size: 1.2rem;
+  background-color: #000000;
+  color: white;
+  padding: 0.1rem 1.5rem;
+  border-radius: 20px;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.blockedtag {
+  background-color: #ff0000;
+  font-size: 1.5rem;
+  position: absolute;
+  text-align: center;
+  top: 100px;
+  left: 0;
+  text-transform: uppercase;
+  padding: 0.1rem 2rem;
+  font-weight: bold;
+}
+
+.blockedtag-1 {
+  background-color: #2baa00;
+  font-size: 1.5rem;
+  position: absolute;
+  text-align: left;
+  top: 100px;
+  left: 0;
+  text-transform: uppercase;
+  padding: 0.1rem 1.5rem;
+  font-weight: bold;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Woningen te huur</title>
+    <script src="https://kit.fontawesome.com/c80a444322.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+  </head>
+  <body>
+    <header class="header-aanbod">
+      <div class="container--header">
+        <a href="index.html"
+          ><img
+            src="/images/logo.png
+          "
+            class="logo-img"
+        /></a>
+
+        <div class="menu-ul-list">
+          <ul>
+            <a href="/index.html" class="menu"><li>Home</li></a>
+            <a href="/aanbod.html" class="menu"><li>Bekijk aanbod</li></a>
+            <a href="#" class="menu"><li>Contact ons</li></a>
+          </ul>
+        </div>
+        <div class="login">
+          <button id="lgn-btn" class="login-btn">
+            <i class="fa-solid fa-user"></i> Log in
+          </button>
+        </div>
+      </div>
+    </header>
+    <main class="house-col">
+      <div class="container-houses" id="house-row">
+        <div class="insert-element" id="sdk"></div>
+        <div id="insert-rentTag"></div>
+        <div id="insert-rentTag2"></div>
+      </div>
+    </main>
+    <script src="/js/getHouses.js"></script>
+    <script src="/js/rent.js"></script>
+  </body>
+</html>
